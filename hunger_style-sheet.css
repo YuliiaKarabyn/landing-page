@@ -1,0 +1,442 @@
+.logo-img {
+	width: 150px;
+	height: 150px;
+}
+
+.logo{
+	padding-top: 20px;
+	z-index: 2;
+	width: 150px;
+}
+
+.menu-left,
+.menu-right {
+	width: 530px;
+	border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+	display: flex;
+	align-self: center;
+	height: 80px;
+}
+
+.menu {
+	display: flex;
+	justify-content: space-around;
+	width: 530px;
+}
+
+.item-style {
+	text-transform: uppercase;
+	letter-spacing: 0.5em;
+	font-size: 12px;
+	line-height: 14px;
+	color: #FFFFFF;
+}
+
+.menu-link {
+	text-decoration: none;
+	cursor: pointer;
+	color: #FFFFFF;
+}
+
+.container {
+	height: 150px;
+	margin: 0;
+	display: inline-flex;
+	width: 100%;
+	justify-content: space-around;
+}
+
+.container-bigger {
+	display: flex;
+	height: 700px;
+	width: 100%;
+	text-align: center;
+}
+
+.side-info {
+	width: 295px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+
+.working-hours-style {
+	transform: rotate(-90deg);
+	color: #FFFFFF;
+	width: 400px;
+	padding-bottom: 250px;
+}
+
+.header-info {
+	width: 840px;
+	border-right: 1px solid rgba(255, 255, 255, 0.2);
+	border-left: 1px solid rgba(255, 255, 255, 0.2);
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.line {
+	width: 60px;
+	height: 5.11px;
+	background: #E8C300;
+	border-radius: 50px;
+	margin-bottom: 30px;
+}
+
+.btn {
+	height: 60px;
+	width: 200px;
+	border-radius: 5px;
+	background: #E8C300;
+	color: #FFFFFF;
+	outline: none;
+	cursor: pointer;
+}
+
+.transparent {
+	background: linear-gradient(0deg, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(7e5b5567280603.5b33eb3873f);
+	border: 1px solid rgba(255, 255, 255, 0.5);
+	margin-left: 30px;
+}
+
+.down-btn {
+	width: 60px;
+	height: 60px;
+	border-radius: 100px;
+	border: 1px solid rgba(255, 255, 255, 0.2);
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-top: 80px;
+}
+
+.circle-box {
+	height: 40px;
+	width: 40px;
+	background: #FFFFFF;
+	border-radius: 100px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+ .right {
+ 	 display: flex;
+ 	 gap:20px;
+}
+
+.about-us {
+	height: 700px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.main-section {
+ 	width: 1280px;
+  height: 475px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.inner-tex-box {
+ 	width: 600px;
+	text-align: center;
+}
+
+.section-inner {
+ 	width: 600px;
+ 	height: 400px;
+}
+
+.section-inner,
+.team-section,
+.reservation-form, 
+.booking-section,
+.specialties-section,
+.menu-section,
+.menu-container,
+.contact-section {
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	align-items: center;
+}
+
+.image-descrip {
+	width: 475px;
+	height: 475px;
+	margin-left: 80px;
+}
+
+.image-descrip-frame {
+ 	position: relative;
+ 	right: 170px;
+ 	top: 110px;
+ 	z-index: 1;
+ 	width: 250px;
+	height: 250px;
+	background: none;
+ }
+
+.left {
+	right: 0px;
+}
+
+.images-section {
+	display: flex;
+ 	width: 600px;
+ 	flex-direction: row;
+}
+
+.team-section {
+ 	width: 1440px;
+	height: 676px; 
+	background-image: url(./images/team.jpg);
+}
+
+.differ-color {
+ 	color: rgba(255, 255, 255, 0.9);
+}
+
+.font-size-changed {
+ 		font-size: 18px;
+ 		font-weight: lighter;
+}
+
+.left-position {
+ 	position: relative;
+ 	right: 160px;
+ 	margin-left: 0px;
+ }
+
+.booking-section {
+	height: 575px;
+}
+
+.reservation-form {
+	width: 550px;
+	height: 480px;
+}
+
+.submit-btn {
+	background: #E8C300;
+	height: 60px;
+	width: 547.5px;
+	text-transform: uppercase;
+	color: #FFFFFF;
+}
+
+.specialties-section {
+	height: 675px;
+	background-image: url(./images/spec.png);
+}
+
+.btn-next {
+	width: 10px;
+	height: 10px;
+	background: rgba(255, 255, 255, 0.5);
+	border-radius: 100px;
+	margin-left: 25px;
+	cursor: pointer;
+}
+
+.btn-next-container {
+	display: flex;
+}
+
+.btn-next .active-page {
+	color: #FFFFFF;
+}
+
+.menu-container {
+  height: 820px;
+}
+
+.menu-categories-container {
+	display: flex;
+	margin-top: 50px;
+	height: 50px;
+}
+
+.menu-categories-style {
+	font-size: 12px;
+	line-height: 18px;
+	color: #333333;
+	text-transform: uppercase;
+	margin-right: 20px;
+	margin-left: 20px;
+	display: flex;
+}
+
+.menu-categories-container-inner {
+	display: flex;
+	flex-wrap: wrap;
+	width: 1280px;
+	justify-content: space-between;
+	margin-top: 50px;
+}
+
+.meal-description-container {
+	width: 343px;
+	height: 66px;
+}
+
+.meal-description-container p {
+  font-family: Raleway;
+  margin: 4px;
+}
+
+.grey-color-text {
+	font-size: 12px;
+	color: rgba(51, 51, 51, 0.5);
+	margin: 0 5px;
+}
+
+.bold {
+	font-weight: bolder;
+	/*margin: 0 5px;*/
+}
+
+.private-event {
+	background-image: url(./images/prieven.png);
+	display: flex;
+	height: 675px;
+	color: #FFFFFF;
+	display: flex;
+	flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.large {
+	width: 1400px;
+}
+
+.private-event-img {
+	width:375px;
+	height: 474px;
+	background-image: url(./images/de.jpg);	
+}
+
+.no-position {
+	position: relative;
+	right: 0px;
+	left: 60px;
+	top: 120px;
+	height: 250px;
+	width: 250px;
+	z-index: 2;
+}
+
+.inner-box {
+	width: 700px;
+	display: flex;
+}
+
+.line-boxx {
+	width: 475px;
+  height: 475px;
+	background-color: black;
+	position: relative;
+	right: 70px;
+	display: flex;
+	justify-content: flex-start;
+}
+
+ .right-position {
+ 	right: 0px;
+ 	left: 60px;
+ 	display: flex;
+ 	justify-content: flex-end;
+}
+/*.right-side {
+	left:95px;
+}*/
+.no-position-right {
+	height: 250px;
+	width: 250px;
+	z-index: 2;
+	top: 120px;
+	right: 45px;
+	position: relative;
+}
+
+.righ {
+	background-image: url(./images/bb.jpg);
+}
+
+.left-side{
+	position: relative;
+	right: 122px;
+}
+.box {
+	display: flex;
+	justify-content: center;
+}
+
+.opposite{
+	transform: rotate(-90deg);
+	right: -150px;
+	top: 130px;
+}
+
+.photo-garelie-section {
+	display: flex;
+}
+
+.pics-style{
+	width: 360px;
+	height: 360px;
+	margin:0;
+}
+
+.contact-section {
+  height: 747px;
+}
+
+.contact-form {
+	width: 1280px;
+}
+
+.contact-box {
+	width: 390px;
+}
+
+.contact-details {
+	width: 640px;
+	height: 70px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.contact-icons {
+ 	width: 15px;
+ 	height: 15px;
+ 	margin-right: 5px;
+ 	margin-left: 15px;
+}
+
+.send-message-btn {
+	width: 600px;
+	height: 60px;
+	background: #E8C300;
+	border-radius: 5px;
+	color: #FFFFFF;
+	margin-top: 10px;
+	margin-left: 20px;
+}
+
+.maps,
+.map {
+	height: 475px;
+	margin: 0px;
+}
+
+.white-color {
+	color: rgba(255, 255, 255, 0.5);
+}
