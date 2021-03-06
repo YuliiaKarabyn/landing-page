@@ -3,8 +3,9 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="hunger_style-sheet.css">
   <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="hunger_style-sheet.css">
+  <link rel="stylesheet" href="responce-style.css">
   <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css2?family=Open+Sans&family=Raleway&display=swap" rel="stylesheet">
   <link href="http://fonts.cdnfonts.com/css/benny" rel="stylesheet">
@@ -37,7 +38,7 @@
       </div>
   		  <div class="container-bigger">	
           <div class="side-info">
-            <p class="working-hours-style">Mon - Fri: 8PM - 10PM, Sat - Sun: 8PM - 3AM</p>
+            <p class="working-hours-style"> <!-- </p><p class="working-hours-style"> -->Sat - Sun: 8PM - 3AM</p><p class="working-hours-style">Mon - Fri: 8PM - 10PM,</p>
           </div>
          <div class="header-info">
           <p class="item-style">restaurant</p>
@@ -113,7 +114,8 @@
             <input type="text" name="user-name" placeholder="Name">
             <input type="text" name="email" placeholder="Email">
             <input type="text" name="phone" placeholder="Phone">
-            <select name="people">
+            <input type="number" name="phone" placeholder="People">
+           <!--  <select name="people">
               <option value="people">People</option>
               <option value="people">1</option>
               <option value="people">2</option>
@@ -123,9 +125,9 @@
               <option value="people">6</option>
               <option value="people">7</option>
               <option value="people">8</option>
-            </select>
-            <input type="text" name="date" placeholder="Date (mm/dd)">
-            <input type="text" name="time" placeholder="Time">
+            </select> -->
+            <input class="bigger-zise" type="date" name="date" placeholder="Date (mm/dd)">
+            <input class="bigger-zise" type="time" name="time" placeholder="Time">
             <input type="submit" name="book now" value="Book Now" class="submit-btn">
           </form>
         </div>
@@ -138,7 +140,7 @@
       <div class="contact-details">
         <p class="grey-color-text">Mon - Fri:</p><p class="grey-color-text bold"> 8PM - 10PM,</p>
         <p class="grey-color-text"> Sat - Sun:</p><p class="grey-color-text bold">8PM - 3AM,</p>
-        <p class="grey-color-text"> Phone:</p><p class="grey-color-text bold"> +40 729 131 637/+40 726 458 782</p>
+        <p class="grey-color-text"> Phone:</p><p class="grey-color-text bold"><a href="tel:+40 729 131 637"> +40 729 131 637/</a><a href="tel:+40 729 131 782">+40 726 458 782</a></p>
       </div>
     </div>
 
@@ -182,7 +184,7 @@
           <div class="menu-categories-container">
             <ul class="menu-categories-style">
               <li><a class="menu-categories-style" href="">soup</a></li> |
-              <li><a class="menu-categories-style" href="">pizza</a></li>|
+              <li><a class="menu-categories-style active-page" href="">pizza</a></li>|
               <li><a class="menu-categories-style" href="">pasta</a></li>|
               <li><a class="menu-categories-style" href="">desert</a></li>|
               <li><a class="menu-categories-style" href="">wine</a></li>|
@@ -288,7 +290,7 @@
         </div>
         <div class="contact-details">
           <p class="grey-color-text white-color">For private events please call:</p>
-          <p class="grey-color-text bold white-color">+40 729 131 637/+40 726 458 782</p>
+          <p class="grey-color-text bold white-color"><a href="tel:+40 729 131 637" style="color: #FFFFFF; opacity:0.5;">+40 729 131 637/</a><a href="tel:+40 729 131 637" style="color: #FFFFFF; opacity:0.5">+40 726 458 782</a></p>
           <p class="grey-color-text white-color">or use the contact form.</p>
         </div>
     </div>
@@ -312,15 +314,16 @@
             <input class="contact-box" type="text" name="email" placeholder="Email">
             <input class="contact-box" type="text" name="phone" placeholder="Phone">
             <textarea name="message" placeholder="Message"></textarea>
-            <div class="contact-details">
-              <img  class="contact-icons" src="./images/map-marker-2-24.png">
-              <p class="grey-color-text bold">5th London Boulevard, U.K.</p> 
-              <img  class="contact-icons" src="./images/phone-7-24.png">
-              <p class="grey-color-text bold">+40 729 131 637/+40 726 458 782</p>
-              <img  class="contact-icons" src="./images/new-post-24.png">
-              <p class="grey-color-text bold">office@mindblister.com</p>
-            </div>
+            
              <input type="submit" name="send-message" value="SEND MESSAGE" class="send-message-btn">
+             <div class="contact-details smaller-box">
+              <p class="grey-color-text bold"><img  class="contact-icons" src="./images/map-marker-2-24.png">
+               5th London Boulevard, U.K.</p> 
+              <p class="grey-color-text bold"><img  class="contact-icons" src="./images/phone-7-24.png">
+              <a href="tel:+40 729 131 637">+40 729 131 637/</a><a href="tel:+40 729 131 637">+40 726 458 782</a></p>
+              <p class="grey-color-text bold"><img  class="contact-icons" src="./images/new-post-24.png">
+              <a href="mailo:office@mindblister.com"> office@mindblister.com</a></p>
+            </div>
           </form>
       <!-- </div> -->
       
